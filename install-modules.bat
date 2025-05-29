@@ -1,0 +1,5 @@
+call az automation python3-package create --resource-group "cbbazureautomationrg" --automation-account-name "rbaccount" --package-name "azure-core" --content-link "uri=https://files.pythonhosted.org/packages/01/8e/fcb6a77d3029d2a7356f38dbc77cf7daa113b81ddab76b5593d23321e44c/azure_core-1.31.0-py3-none-any.whl"
+
+call az automation python3-package create --resource-group "cbbazureautomationrg" --automation-account-name "rbaccount" --package-name "azure-storage-blob" --content-link "uri=https://files.pythonhosted.org/packages/57/33/085d9352d416e617993821b9d9488222fbb559bc15c3641d6cbd6d16d236/azure_storage_blob-12.25.1-py3-none-any.whl"
+
+call az automation python3-package create --resource-group "cbbazureautomationrg" --automation-account-name "rbaccount" --package-name "azure-identity" --content-link "uri=https://files.pythonhosted.org/packages/de/aa/819513c1dbef990af690bb5eefb5e337f8698d75dfdb7302528f50ce1994/azure_identity-1.20.0-py3-none-any.whl"

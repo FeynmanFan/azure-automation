@@ -1,0 +1,1 @@
+pip install azure-core==1.34.0 azure-storage-blob==12.25.1 azure-identity==1.23.0 --no-deps
